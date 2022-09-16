@@ -10,10 +10,10 @@
   for (i = 1; i <  no; i++)
   {
   c = i;
-  do
+  
   {
   heap_root  = (c - 1) / 2;
- 
+
   if  (arr[heap_root] < arr[c])
   {
   temp =  arr[heap_root];
